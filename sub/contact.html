@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak HTML</title>
+</head>
+<body>
+  <!-- menu website -->
+  <div>
+      <a href="../index.html">Home</a>
+      <a href="contact.html">&nbsp; Kontak</a>
+  </div>
+  
+  <!-- bagian awal berisi tag heading -->
+  <div>
+    <h1>Belajar HTML</h1>
+    <h2>Tutorial online <span>
+      belajar membuat form website
+    </span></h2>
+  </div>
+
+  <!-- membuat form -->
+  <form action="">
+    <fieldset>
+      <legend>Nama dan Alamat</legend>
+        <label for="nama">Nama</label>
+          <input type="text" placeholder="Username" value="Nama saya" id="nama">
+        <br>
+        <label for="pesan_user">Pesan</label><br>
+          <textarea id="pesan_user" cols="100" rows="10">Pesan saya adalah</textarea><br>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Data User</legend>
+        <label>Hobi User</label> <br>
+          <input type="checkbox" name="hobi_user" value="gambar">Menggambar <br>
+          <input type="checkbox" name="hobi_user" value="lagu">Menyanyi <br>
+          <input type="checkbox" name="hobi_user" value="buku">Menulis <br>
+          <br>
+        <label>Jenis Kelamin</label> <br>
+          <input type="radio" name="gender" value="0">Laki-laki <br>
+          <input type="radio" name="gender" value="1">Perempuan <br>
+        <br>
+        <label>Pelajaran</label>
+        <select>
+          <optgroup label="Frontend">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+          </optgroup>
+          <optgroup label="Backend">
+            <option value="py">Python</option>
+            <option value="db">Database</option>
+          </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" value="Kirim Data">
+    </fieldset>
+  </form>
+
+  <br>
+  <table border="1">
+    <caption>Daftar Nama Mahasiswa</caption><br>
+    <tr>
+      <th>Nama</th>
+      <th>Jurusan</th>
+      <th>Kelas</th>
+    </tr>
+    <tr>
+      <td>Jannah</td>
+      <td>S1 RPL</td>
+      <td>SE-45-02</td>
+    </tr>
+  </table>
+
+  <!-- list html -->
+  <ul>
+    <li>Jannah</li>
+    <li>Ani</li>
+    <li>Nina</li>
+  </ul>
+
+  <ol>
+    <li>Jannah</li>
+    <li>Ani</li>
+    <li>Nina</li>
+  </ol>
+
+  <dl>
+    <dt>Jannah</dt>
+    <dd>User Pertama</dd>
+    
+    <dt>Ani</dt>
+    <dd>User Kedua</dd>
+  </dl>
+
+  <p>&copy; Jannah</p>
+</body>
+</html>
