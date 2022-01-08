@@ -1,0 +1,184 @@
+body{
+  background-color: #e9cedf;
+  background-image: url("image/cherrytree.png");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position:bottom;
+  background-size: 200px;
+  font-family: Verdana;
+}
+
+h1{
+  color: purple;
+  text-align: center;
+  text-decoration: underline;
+  /* display: inline; */
+}
+
+h2{
+  text-align: center;
+  text-transform: capitalize;
+  display: inline;
+}
+
+img{
+  margin-left: 47%;
+}
+
+#come{
+  font-size: 20px;
+  font-weight: bold;
+  /* background-color: lightsteelblue;
+  height: 200px;
+  max-width: 100px; */
+  /* visibility: hidden; */
+  /* display: none; */
+}
+
+#desc{
+  text-align: justify;
+  text-indent: 24px;
+  line-height: 20px;
+  word-spacing: 4px;
+  font-weight: lighter;
+}
+
+#menu_wrap{
+  margin-bottom: 50px;
+  /* margin: top right bottom left
+  margin: 10px 0 50px 0 */
+}
+
+.menu{
+  display: inline-block;
+  /* height: 75px;
+  width: 75px; */
+  text-decoration-line: none;
+
+  border-width: 1px;
+  border-style: dashed;
+  border-color: whitesmoke;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.menu:link{
+  background: palevioletred;
+  color: darkviolet;
+}
+
+.menu:visited{
+  background: lightpink;
+}
+
+.menu.hover{
+  background: darkred;
+}
+
+.menu:active{
+  background: indianred;
+}
+
+/* posisi di css
+static, relative, absolute, fixed */
+
+/* #menu_member{
+  position: relative;
+  top: 70px;
+  left: 3px;
+}
+
+#parent_h1{
+  position: relative;
+  top: 50px;
+} */
+
+/* posisi absolute tergantung dengan parent element */
+/* #h1_member{
+  background: aqua;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  z-index: -1;
+} */
+
+/* posisi relative tergantung dengan browser */
+/* #parent_h2{
+  position: relative;
+  top: 50px;
+} */
+
+/* #h2_member{
+  background: violet;
+  position: fixed;
+  top: 100px;
+  left: 10px;
+  z-index: -1;
+} */
+
+table{
+  /* float: left;
+  float: right; */
+  margin-right: 10px;
+}
+
+/* menghilangkan efek float ke elemen berikutnya */
+#new_div{
+  clear: both;
+}
+
+ul, ol, dl{
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 33.33%;
+}
+
+#copy{
+  clear: both;
+  text-align: center;
+}
+
+/* halaman kontak */
+h1, h2{
+  color: dimgrey;
+  margin: 10px 0px;
+}
+
+/* div a{
+  background-color: lightcoral;
+} */
+
+/* langsung di bawah parentnya */
+/* div > a{
+  background-color: lightcoral;
+} */
+
+/* setelah elemen */
+/* div + div{
+  background:skyblue;
+} */
+
+/* semua bagian di bawahnya */
+/* div ~ p{
+  background: yellow;
+} */
+
+/* :hoverkeadaan ketika mouse berada pada elemen tertentu
+1. diri sendiri
+2. elemen lain:
+  > langsung di dalam
+  + langsung setelah (space) berada disuatu tempat(dalam container) */
+
+h1:hover{
+  color: black;
+}
+
+h1:hover + h2{
+  color: darkred;
+}
+
+/* Focus : keadaan ketika input di klik */
+input:focus, textarea:focus{
+  background: darksalmon;
+}

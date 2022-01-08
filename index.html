@@ -5,12 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Belajar HTML</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
+<!-- 3 cara menghubungkan html dan css
+1. inline: langsung pada tag
+2. internal: file html
+3. exterbal : file css sendiri -->
+
 <body>
     <!-- menu website -->
-    <div>
-      <a href="index.html">Home</a>
-      <a href="sub/contact.html">Kontak</a>
+    <div id="menu">
+      <a href="index.html" class="menu">Home</a>
+      <a href="sub/form.html" class="menu">Kontak</a>
+      <a href="sub/member.html" class="menu">Member</a>
   </div>
 
   <!-- bagian awal berisi tag heading -->
@@ -23,14 +31,20 @@
 
   <!-- isi konten website -->
   <div>
-    <p>Selamat datang di website yang saya buat tentang latihan HTML</p>
+    <img src="image/mountain.png" alt="Ini gambar gunung" height="100" width="100">
+    <p id="come">Selamat datang di website yang saya buat</p>
+    <p id="desc">Website adalah kumpulan halaman memuat tentang berbagai informasi agar dapat dibaca dan dilihat oleh pengguna internet.
+      Saya membuat website ini dengan HTML dan CSS. Hypertext Markup Language atau HTML adalah bahasa markup yang digunakan untuk membuat struktur halaman website. 
+      HTML terdiri dari kombinasi teks dan simbol yang disimpan dalam sebuah file. Dalam membuat file HTML, terdapat standar atau format khusus yang harus diikuti.
+      CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, seperti HTML. 
+      CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs.
+    </p>
     <a href="https://facebook.com">Buka Facebook</a>
     <a href="https://twitter.com" target="_blank">Buka Twitter</a>
   </div>
 
   <!-- tentang formating dan iframe -->
   <div>
-    <img src="image/mountain.png" alt="Ini gambar gunung" height="100" width="100">
     <p>Kita akan <i>belajar</i> cara menformat text pada <b>html</b></p>
     <iframe 
       src="https://www.w3schools.com/html/" 
